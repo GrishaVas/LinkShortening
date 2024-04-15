@@ -1,0 +1,29 @@
+﻿@using LinkShortening.Services.Models
+@model List<LinkDto>
+@{
+    ViewData["Title"] = "Main";
+}
+<div class="row">
+    <div class="col">
+        <table class="table table-striped">
+            <tr>
+                <th>Url</th>
+                <th>ShortUrl</th>
+                <th>CreatedAt</th>
+                <th>ClicksNumber</th>
+            </tr>
+            @{
+                foreach (var link in Model)
+                {
+                    <tr>
+                        <td>@link.Url</td>
+                        <td><a asp-controller="Links" asp-action="GoTo" asp-route-id="@link.ShortUrl">@link.ShortUrl</a></td>
+                        <td>@link.CreatedAt</td>
+                        <td>@link.ClicksNumber</td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+</div>
+

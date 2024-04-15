@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkShortening.MVC", "LinkShortening.MVC\LinkShortening.MVC.csproj", "{EAACA604-FDD9-4691-BDD9-642EBB40705A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkShortening.Infrastructure", "LinkShortening.Infrastructure\LinkShortening.Infrastructure.csproj", "{BB974A93-F286-4BCE-A390-980BFD97910A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkShortening.Services", "LinkShortening.Services\LinkShortening.Services.csproj", "{1BC7C987-A8C8-4DD5-A8D7-6A0DEC991664}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAACA604-FDD9-4691-BDD9-642EBB40705A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAACA604-FDD9-4691-BDD9-642EBB40705A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAACA604-FDD9-4691-BDD9-642EBB40705A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAACA604-FDD9-4691-BDD9-642EBB40705A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB974A93-F286-4BCE-A390-980BFD97910A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB974A93-F286-4BCE-A390-980BFD97910A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB974A93-F286-4BCE-A390-980BFD97910A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB974A93-F286-4BCE-A390-980BFD97910A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC7C987-A8C8-4DD5-A8D7-6A0DEC991664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC7C987-A8C8-4DD5-A8D7-6A0DEC991664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC7C987-A8C8-4DD5-A8D7-6A0DEC991664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC7C987-A8C8-4DD5-A8D7-6A0DEC991664}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87C99932-D5A1-43A0-8B7E-E7F2DD8ED02C}
+	EndGlobalSection
+EndGlobal
