@@ -32,6 +32,7 @@ namespace LinkShortening.MVC.Controllers
             return View(links);
         }
         [HttpGet]
+        [ResponseCache(NoStore = true)]
         public async Task<IActionResult> GoTo([FromRoute] string id)
         {
             var link = await _linksService.GetLink(l => l.ShortUrl == id);
